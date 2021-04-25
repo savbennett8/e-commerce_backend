@@ -1,8 +1,6 @@
-const { STATUS_CODES } = require('node:http');
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
-const { truncate } = require('./Product.js');
 
 class Category extends Model { }
 
