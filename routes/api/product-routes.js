@@ -25,9 +25,8 @@ router.get('/', (req, res) => {
             },
             {
                 model: Tag,
-                attributes: ['id', 'product_id', 'tag_id'],
                 through: ProductTag,
-                as: 'tagged_product'
+                foreignKey: 'product_id'
             }
         ]
     })
@@ -63,9 +62,8 @@ router.get('/:id', (req, res) => {
             },
             {
                 model: Tag,
-                attributes: ['id', 'product_id', 'tag_id'],
                 through: ProductTag,
-                as: 'tagged_product'
+                foreignKey: 'product_id'
             }
         ]
     })
@@ -89,6 +87,7 @@ router.post('/', (req, res) => {
         product_name: "Basketball",
         price: 200.00,
         stock: 3,
+        category_id: 1
         tagIds: [1, 2, 3, 4]
       }
     */
