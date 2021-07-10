@@ -2,11 +2,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+Module 13 weekly challenge.
+<br>
+<br>
 AS A manager at an internet retail company
 <br>I WANT a back end for my e-commerce website that uses the latest technologies
 <br>SO THAT my company can compete with other e-commerce companies
 
-Check out my [video demonstration](https://drive.google.com/file/d/1oZpA0_rP55S_GWdC9SHGOWUqwi0uNWaz/view) of how this application works.
+Check out my [video demonstration](https://drive.google.com/file/d/1hV4SGuFQC4s6-5DC4kEqhfaaobxyVAE7/view?usp=sharing) of how this application works.
 
 ## Table of Contents
 * [Installation](https://github.com/savbennett8/e-commerce_backend/tree/main#installation)
